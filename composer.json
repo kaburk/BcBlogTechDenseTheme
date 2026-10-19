@@ -1,0 +1,12 @@
+{
+    "name": "kaburk/bc-blog-tech-dense-theme",
+    "description": "Dense list technical blog theme for baserCMS5 (tag-centric list, table of contents, reading time, light/dark mode)",
+    "homepage": "https://blog.kaburk.com/",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BcBlogTechDenseTheme\\": "src/"
+        }
+    }
+}
