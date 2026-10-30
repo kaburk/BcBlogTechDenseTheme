@@ -566,6 +566,9 @@ body {
 .bt-site .bt-footer-nav a { display: inline-flex; align-items: center; gap: 6px; color: var(--fg); text-decoration: none; }
 .bt-site .bt-footer-nav a:hover { color: var(--hover-c); text-decoration: underline; }
 .bt-footer-nav .bt-ico { width: 15px; height: 15px; }
+/* ウィジェットエリア「フッター：プロフィール」（テキストのウィジェットに .bt-profile を書く） */
+.bt-footer-profile { flex: 1 1 320px; max-width: 520px; }
+.bt-footer-nav > .bt-footer-name { margin-bottom: 10px; }
 .bt-copyright { margin: 28px 0 0; font-size: 12px; color: var(--fg-muted); }
 
 /* ---------- Responsive（コンテナクエリ：.bt-site の幅で切り替え） ---------- */
